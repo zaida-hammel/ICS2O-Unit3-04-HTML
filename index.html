@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Fahrenheit to Celcius, With JS">
+    <meta name="description" content="Fahrenheit to Celsius, With JS">
     <meta name="keywords" content="mths, ics2o">
     <meta name="author" content="Zaida Hammel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
     <link rel="stylesheet"/>
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Fahrenheit to Celcius, With JS</title>
+    <title>Fahrenheit to Celsius, With JS</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -25,7 +25,7 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Fahrenheit to Celcius, With JS</span>
+          <span class="mdl-layout-title">Fahrenheit to Celsius, With JS</span>
         </div>
       </header>
       <main class="mdl-layout__content">
@@ -38,15 +38,15 @@
         </table>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Radius:</p>
+          <p>Fahrenheit (°):</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="number"
               step=".01"
-              id="radius-of-sphere"
+              id="degrees-fahrenheit"
             />
-            <label class="mdl-textfield__label" for="radius-of-sphere">radius...</label>
+            <label class="mdl-textfield__label" for="degrees-fahrenheit">radius...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -60,7 +60,7 @@
         <br />
         <p>
           <div id="answers">
-            <div id="volume"
+            <div id="celsius"
               step=".01">
             </div>
           </div>
